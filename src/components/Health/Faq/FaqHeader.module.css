@@ -1,0 +1,16 @@
+.faqHeader {
+  border-bottom: 2px solid var(--main-color);
+  width: fit-content;
+  color: var(--main-color);
+  padding-bottom: 2% !important;
+  cursor: pointer;
+  margin-bottom: 3%;
+}
+
+.faqHeader svg {
+  transition: 0.3s;
+  transform: rotate(180deg);
+}
+.faqHeader.open svg {
+  transform: rotate(0deg);
+}

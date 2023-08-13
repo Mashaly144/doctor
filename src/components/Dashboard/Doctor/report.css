@@ -1,0 +1,95 @@
+.report-section {
+    flex-direction: column;
+    display: flex;
+    gap: 14px;
+    margin-top: 50px;
+  }
+  
+  .report-user-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    min-height: 236px;
+    width: 599px;
+    padding: 20px !important;
+  }
+  .report-user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .report-user-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .report-user h3 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 20px;
+  }
+  .report-user span {
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #00000080;
+  }
+  .select-card {
+    padding: 20px !important;
+    background-color: red;
+    height: 77px;
+    width: 463px;
+  }
+ .report-section select {
+    
+    width: 463px;
+    border-radius: 25px;
+    padding:10px 20px !important;
+    background-color: red;
+    border: none;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  
+  .report-card p {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+
+  }
+.report-from {
+    padding: 40px !important;
+  }
+  .report-from input {
+    width: 975px;
+    height: 191px;
+    border-radius: 25px;
+    position: relative;
+    padding: 20px !important;
+    background-color: #ffffff;
+    border: none;
+    outline-width: 0px;
+  }
+  .report-from input::placeholder {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    
+    letter-spacing: 0em;
+    text-align: left;
+  }

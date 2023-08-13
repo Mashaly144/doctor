@@ -1,0 +1,108 @@
+.Appointment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  
+}
+.Appointment-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.Appointment-text h1 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.Appointment-text a {
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0067ff;
+}
+
+.Appointment-users {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 420px;
+  margin-bottom: 20px;
+}
+.Appointment-users h4 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.Appointment-users img {
+  width: 52px;
+  height: 52px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.Appointment-users span {
+  width: 20px;
+  height: 20px;
+  background-color: green;
+  border-radius: 50%;
+}
+.Appointment-details {
+  display: flex;
+  align-items: center;
+}
+.Appointment-details h4 {
+  margin-left: 20px;
+}
+.cale__app{
+  width: 100%;
+
+}
+
+.cale thead tr {
+  text-align: center;
+  
+  
+}
+.cale__app td {
+  padding: 20px 0 !important;
+}
+.cale .p-datepicker {
+  background-color: #f2f3f3;
+  border-radius: 24px;
+  border: none;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.04);
+  padding: 2px !important;
+}
+.cale .p-datepicker-header {
+  background-color: #f2f3f3 !important;
+  border: none !important;
+}
+.cale .p-datepicker-today > span {
+  background-color: #a5bcde !important;
+}
+.cale .p-datepicker table td > span.p-highlight {
+  color: #4a94fc;
+  border: 1px solid #518fe7;
+}
+.cale .p-datepicker-today > span.p-highlight {
+  background-color: #4a94fc !important;
+}
+.table-disease{
+ 
+  padding-right: 300px !important;
+  width: 220px;
+}

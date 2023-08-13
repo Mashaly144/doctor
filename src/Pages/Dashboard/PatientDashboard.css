@@ -1,0 +1,102 @@
+.dashboard__word{
+    margin: 0;
+    margin-left: 10px;
+}
+.dashboard-navbar p{
+    color: var(--main-color);
+    font-size: 24px;
+    font-weight: 600;
+}
+.dashboard-navbar .seacrh__form i{
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 20px;
+    
+}
+
+
+.patient-dashboard .avatar__img {
+    border: 6px solid white;
+    border-radius: 50%;
+    width: 200px ;
+    height: 200px;
+}
+.patient-dashboard .avatar__img img{
+  filter:   contrast(100%) brightness(100%);
+  width: 100%;
+}
+.patient-dashboard hr {
+    width: 80%;
+    height: 2px;
+    background-color: white;
+    opacity: .8;
+    border: none;
+}
+.patient-dashboard .nav-item{
+    color: white !important;
+    filter: brightness(100%);
+    width: 160px;
+    transition: .3s;
+}
+.patient-dashboard .nav-item:hover{
+    filter: brightness(30%);
+}
+.patient-dashboard .nav-item.acitve{
+    filter: brightness(30%);
+}
+.patient-dashboard .nav-link {
+    margin: 10px 0 ;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+.patient-dashboard .nav-link i{
+    font-size: 24px;
+    margin-right: 10px;
+    
+}
+
+.patient-dashboard .patient__table  thead th{
+    opacity: .7;
+    padding-right: 80px!important;
+    font-size: 15px;
+    font-weight: 500 !important;
+}
+.patient-dashboard .patient__table tbody tr td{
+  font-size: 18px;
+    padding:20px 0 !important;
+    
+
+} 
+.patient-dashboard .patient__table  tbody tr td div {
+    background-color: white ;
+   
+   padding: 20px 0 !important;
+    
+}
+.patient-dashboard .patient__table  tbody tr td:first-child div{
+    border-radius: 30px 0 0 30px;
+    padding-left: 20px !important;
+}
+.patient-dashboard .patient__table  tbody tr td:last-child div{
+    border-radius:  0 30px 30px 0 ;
+    padding-right: 20px !important;
+}
+.patient-dashboard .patient__table  {
+    border-spacing: 350px ;
+}
+
+.patient-dashboard .patient__table  tbody tr{
+   
+    overflow: hidden;
+    margin: 20px !important;
+border-radius: 15px !important;
+}.patient-dashboard .btn__handler {
+    padding: 20px 50px !important;
+}
+.white-box{
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 2px 2px 12px 2px rgb(201, 201, 201);
+    margin-top: 30px;
+}

@@ -1,0 +1,18 @@
+.btn__handler {
+  all: unset;
+  display: block;
+  background-color: var(--main-color);
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 17px 120px !important;
+  border-radius: 12px;
+  margin-top: 4%;
+  border: 1px var(--main-color) solid;
+  transition: 0.3s;
+}
+.btn__handler:hover {
+  background-color: var(--main-color);
+  filter: brightness(120%);
+}

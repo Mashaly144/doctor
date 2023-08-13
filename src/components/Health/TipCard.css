@@ -1,0 +1,53 @@
+.tip__holder {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 6%;
+  height: 180px;
+}
+.tip__holder .img__holder {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid var(--main-color);
+}
+.tip__holder img {
+  width: 100%;
+  object-fit: contain;
+}
+.tip__holder h1 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 48px;
+  position: relative;
+  text-align: center;
+  width: 60%;
+  color: black;
+}
+.tip__holder h1::after {
+  content: "";
+  bottom: -20px;
+  height: 3px;
+  width: 100%;
+  background-color: var(--main-color);
+  position: absolute;
+  left: -3px;
+}
+
+.tip__holder.right {
+  margin-left: auto;
+  direction: rtl;
+  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 80%);
+}
+.tip__holder.right img {
+}
+.tip__holder.right svg {
+  transform: rotate(-180deg);
+  width: 72%;
+}
+.tip__holder.right img {
+  transform: scaleX(-1);
+}
+.tip__holder.right h1 {
+}

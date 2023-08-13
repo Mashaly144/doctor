@@ -1,0 +1,35 @@
+.feedback-section {
+  margin-bottom: 10px;
+  background-color: white;
+  padding: 0 20px !important;
+  border-radius: 15px;
+}
+
+.feedback-section h2 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.rating input {
+  display: none;
+}
+
+.rating label {
+  font-size: 30px;
+  color: #c1bfbf;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.rating label:before {
+  content: '\2605';
+}
+
+.rating input:checked ~ label {
+  color: #4a94fc;
+}

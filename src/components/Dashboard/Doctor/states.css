@@ -1,0 +1,32 @@
+.state-container {
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+  align-items: center;
+  align-content: center;
+  padding: 48px;
+  flex: 1;
+  height: 174px;
+  margin-top: 50px;
+}
+.state-card {
+  display: flex;
+  justify-content: start;
+  gap: 30px;
+  align-items: center;
+  align-content: center;
+  padding: 20px;
+  flex: 1;
+}
+.state-icon {
+  border: 2px#4a94fc solid;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.state-card h3 {
+  font-size: 20px;
+}

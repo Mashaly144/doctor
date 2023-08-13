@@ -1,0 +1,13 @@
+.signup__doctor__form .upload__btn__holder input {
+  display: none;
+}
+.signup__doctor__form .upload__btn__holder label {
+  padding: 10px 20px !important;
+  width: 114%;
+  border-radius: 5px;
+  border: rgba(0, 0, 0, 0.3) 1px solid;
+  background: rgba(242, 243, 243, 0.5);
+  transition: 0.3s;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 7%;
+}

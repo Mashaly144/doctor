@@ -1,0 +1,29 @@
+.upload__header {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 4%;
+}
+.fileUpload__holder .upload__btn {
+  max-width: 0;
+}
+.fileUpload__holder label {
+  background-color: #deeefe !important  ;
+  color: #4a94fc !important;
+  border: none !important;
+  opacity: 1;
+  display: inline-block;
+  border-radius: 15px;
+  cursor: pointer;
+  padding: 12px 30px !important;
+}
+textarea {
+  all: unset;
+
+  display: block;
+  width: 100%;
+  border: 1px solid #000000;
+  border-radius: 25px;
+  padding: 20px 15px !important;
+}

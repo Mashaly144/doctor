@@ -1,0 +1,55 @@
+.doctor__info {
+  margin-top: 7%;
+  margin-bottom: 5%;
+}
+.doctor__info p {
+  margin: 0 !important;
+}
+.doctor__info > img {
+  outline: 2px solid white;
+  border-radius: 50%;
+}
+.doctor__data {
+  margin-left: 6%;
+}
+.doctor__name {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.015em;
+}
+.doctor__spec {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 40px;
+  letter-spacing: 0.015em;
+  color: #4a94fc;
+}
+.doctor__ads {
+  margin-bottom: 7%;
+}
+.ad {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 40px;
+  letter-spacing: 0.015em;
+  width: 25%;
+}
+
+.arrow {
+  position: absolute;
+  right: 6%;
+  bottom: 4%;
+}
+.view-more {
+  display: block;
+  width: fit-content;
+  padding: 16px 36px !important;
+  margin: auto;
+  background: var(--main-color);
+  border-radius: 12px;
+  font-size: 18px;
+  line-height: 20px;
+  color: white;
+  margin-top: 50px;
+}

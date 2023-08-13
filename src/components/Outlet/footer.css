@@ -1,0 +1,19 @@
+footer {
+  background-color: #deeefe;
+  padding: 4% 2% 0.2% !important;
+}
+footer ul li {
+  margin-bottom: 3%;
+}
+footer .head__li {
+  font-family: "Manrope" !important;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  margin-bottom: 5%;
+  letter-spacing: 0.03em;
+  color: #121212;
+}
+footer .social-icon img {
+  margin-right: 40%;
+}

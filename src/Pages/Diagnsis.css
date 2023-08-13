@@ -1,0 +1,67 @@
+.diagnsis-holder {
+  margin-top: 4%;
+  margin-bottom: -5% !important;
+}
+.box-digansis {
+  background: #f2f3f3;
+  border-radius: 20px;
+  padding: 15px !important;
+}
+.box-header {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+.case-statue {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  color: #008000;
+  padding: 40px 0 !important;
+}
+.scan-holder {
+  justify-content: space-between;
+  align-content: center;
+  margin-top: 15px;
+  width: 250px;
+  padding: 10px 20px !important;
+}
+.box-digansis ul {
+  background-color: #ffffff;
+  border-radius: 20px;
+  list-style-type: disc;
+  color: black !important;
+  padding: 20px !important;
+}
+.box-digansis ul li {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  margin-left: 10px;
+}
+.digansis-btns a {
+  display: block;
+
+  background-color: var(--main-color);
+  color: white;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 17px 25px !important;
+  border-radius: 12px;
+  margin-top: 4%;
+  border: 1px var(--main-color) solid;
+  transition: 0.3s;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.digansis-btns a:hover {
+  background-color: var(--main-color);
+  filter: brightness(120%);
+}

@@ -1,0 +1,42 @@
+.textHolder {
+  max-height: 60px;
+  overflow: hidden;
+  width: 100%;
+  padding: 20px 0 p !important;
+
+  border-bottom: 2px solid #d7def0;
+}
+.headQ {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.headQ span {
+  font-size: 30px;
+  cursor: pointer;
+  transition: all ease-in-out 0.5s;
+}
+
+.question {
+  margin: 15px 0;
+  font-weight: 700;
+  font-size: 20px;
+}
+.description {
+  line-height: 140%;
+  color: rgba(60, 60, 67, 0.85);
+}
+.active {
+  height: 220px;
+}
+@media (max-width: 767px) {
+  .textHolder {
+    max-height: 50px;
+  }
+  .question {
+    margin: 15px 0;
+    font-weight: 700;
+    font-size: 12px;
+  }
+}

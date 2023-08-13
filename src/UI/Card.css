@@ -1,0 +1,62 @@
+.cards__holder {
+  margin-top: 4%;
+  flex-wrap: nowrap;
+}
+.custom__card {
+  box-shadow: 0px 10px 10px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 0px 0px 20px 20px;
+  border-top: solid 2px var(--main-color);
+  padding: 10px 30px !important;
+  position: relative;
+  width: 32%;
+  overflow: hidden;
+  cursor: pointer;
+  margin-bottom: 3% !important;
+}
+.custom__card * {
+  transition: 0.5s;
+}
+.overlay__card {
+  position: absolute;
+  width: 100%;
+  height: 0%;
+  z-index: -1;
+  background-color: var(--main-color);
+  top: 0;
+  left: 0;
+  transition: 0.3s ease-out;
+}
+.custom__card:hover * {
+  color: white !important;
+}
+.custom__card.selected * {
+  color: white !important;
+}
+.custom__card.selected .whiteSvg {
+  
+  filter: brightness(1000%) saturate(100%);
+}
+.custom__card:hover .whiteSvg {
+  filter: brightness(1000%) saturate(100%);
+}
+.custom__card:hover .overlay__card {
+  height: 100%;
+}
+.custom__card:hover .arrow {
+  right: 3%;
+  filter: brightness(1000%) saturate(100%);
+}
+.custom__card.col-12 {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.overlay__card.selected {
+  height: 100%;
+}
+.correct__for__card {
+  font-size: 27px;
+  top: 4px;
+  right: 10px;
+  position: absolute;
+}

@@ -1,0 +1,65 @@
+.feedback .slider__holder {
+  background-color: var(--main-color);
+  border-radius: 27px;
+  width: 88%;
+  margin: auto;
+}
+.feedback .home__slide {
+  padding-left: 0 !important;
+}
+.feedback .slider__holder::before {
+  content: url("../../Assets/Img/Home/qoute.svg");
+
+  position: absolute;
+  top: -2%;
+  right: 9%;
+}
+.feedback .img__holder {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  border: 5px solid white;
+  margin: auto;
+}
+
+.feedback .slider__holder h1 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 48px;
+  color: #ffffff;
+  margin: 0;
+}
+.feedback .slider__holder p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px !important;
+  line-height: 30px;
+  color: white;
+  width: 69%;
+  margin-top: 30px;
+}
+.feedback .carousel-control-next {
+  right: -80px !important;
+  left: auto;
+  margin: 0 !important;
+  width: 100px !important;
+  opacity: 1;
+}
+.feedback .carousel-control-prev {
+  left: -80px !important;
+  right: auto;
+  margin: 0 !important;
+  width: 100px !important;
+  opacity: 1;
+}
+.feedback .carousel-control-next-icon {
+  background-image: url("../../Assets/Img/Home/rightarrow.svg");
+}
+.feedback .carousel-control-prev-icon {
+  background-image: url("../../Assets/Img/Home/leftarrow.svg");
+}
+.qoute {
+  margin-left: 100px !important;
+}

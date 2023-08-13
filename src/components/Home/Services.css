@@ -1,0 +1,24 @@
+.cards__holder {
+  margin-top: 4%;
+  flex-wrap: nowrap;
+}
+.services__holder h1 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  color: #121212;
+  margin-bottom: 7%;
+  margin-top: 12%;
+}
+.services__holder h1 img {
+  margin-right: 7%;
+}
+.services__holder p {
+  font-weight: 400;
+  font-size: 18px !important;
+  line-height: 23px;
+  letter-spacing: 0.03em;
+
+  color: #696969;
+}

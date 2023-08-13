@@ -1,0 +1,54 @@
+.css-13cymwt-control,
+.css-t3ipsp-control {
+  padding: 16px !important;
+  border-radius: 20px !important;
+  background-color: rgba(242, 243, 243, 0.5) !important;
+}
+.css-b62m3t-container {
+  border-radius: 20px !important;
+}
+.billing-input {
+  width: 100% !important;
+}
+.billing-input input {
+  padding: 16px !important;
+  border-radius: 20px !important;
+  background-color: rgba(242, 243, 243, 0.5) !important;
+  width: 95%;
+}
+.billing-input input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.date-holder .css-16xnw6h-MuiFormControl-root {
+  width: 150px;
+  padding: 10px !important;
+  margin-right: 30px;
+}
+.date-holder fieldset {
+  display: block;
+  width: 150px;
+  height: 65px;
+  background-color: rgba(242, 243, 243, 0.5) !important;
+  border-radius: 20px !important;
+  padding: 10px 16px !important;
+  margin-top: -12px;
+}
+.date-holder label {
+  margin-left: 10px;
+}
+.date-holder select {
+}
+.cvv-holder {
+  display: flex;
+}
+.cvv-holder input {
+  padding: 16px !important;
+  border-radius: 20px !important;
+  background-color: rgba(242, 243, 243, 0.5) !important;
+  width: 150px !important;
+}
+.cvv-holder input::placeholder {
+  content: "test";
+}

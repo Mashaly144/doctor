@@ -1,0 +1,19 @@
+.chart-rev-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.review-card {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-basis: 40%;
+}
+.review-img {
+  width: 500px;
+  flex-basis: 60%;
+}
+img {
+  max-width: 100%;
+}

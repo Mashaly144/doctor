@@ -1,0 +1,40 @@
+.input__holder {
+  position: relative;
+  margin-bottom: 5% !important;
+}
+.input__holder input {
+  padding: 10px 20px !important;
+  all: unset;
+  width: 100%;
+  border-radius: 5px;
+  border: rgba(0, 0, 0, 0.3) 1px solid;
+  background: rgba(242, 243, 243, 0.5);
+  transition: 0.3s;
+}
+.input__holder label {
+  position: absolute;
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: 0.3s;
+}
+.input__holder input:focus {
+  border: var(--main-color) 1px solid;
+}
+.input__holder input::placeholder {
+  color: rgba(242, 243, 243, 0.5) !important;
+}
+.input__holder input:focus + label,
+.input__holder input:not(:placeholder-shown) + label {
+  top: 0;
+  font-size: 12px;
+  background-color: white;
+  padding: 0 7px !important;
+  color: var(--main-color);
+}
+.input__holder input:invalid {
+  border: solid red 2px;
+}

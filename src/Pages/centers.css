@@ -1,0 +1,17 @@
+.hospital-info {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+}
+.hospital-info + h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: 0.015em;
+  margin-top: 4%;
+  color: #4a94fc;
+}

@@ -1,0 +1,206 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import '~bootstrap-icons/font/bootstrap-icons.css';
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+:root {
+  --main-color: #4a94fc;
+}
+* {
+  padding: 0 !important;
+  margin: 0;
+  font-family: "Poppins", sans-serif !important;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none !important;
+  color: black;
+}
+section,
+footer {
+  margin-top: 10%;
+}
+.partners img {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+.price {
+  color: #4a94fc !important;
+}
+.box {
+  border-radius: 16px !important;
+  background-color: rgb(238, 238, 238) !important;
+}
+/* RESPOSNIVE DONT TOUCH */
+@media (max-width: 767px) {
+  .nav__Links {
+    display: none !important;
+  }
+  .burger__list {
+    display: block !important;
+  }
+  .nav__link {
+    padding: 5px !important;
+  }
+  .burger__list:hover + .nav__Links {
+    display: block !important;
+    position: absolute;
+    border-radius: 3px;
+    border: 2px solid var(--main-color);
+    bottom: -180px;
+    z-index: 3;
+    background-color: rgba(255, 255, 255, 0.787);
+    width: 100%;
+    padding: 10px 0 !important;
+  }
+  .home__slide {
+    flex-direction: column;
+  }
+  .home__slide h1 {
+    font-size: 27px !important;
+  }
+  .img__holder img {
+    width: 70% !important;
+  }
+  .wrong__img {
+    width: 60% !important;
+  }
+  .about__imgHolder {
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .about__imgHolder img {
+    width: 80%;
+  }
+  .about__content > p {
+    width: 90%;
+    margin: auto;
+  }
+  .section__header {
+    text-align: center;
+  }
+  .services__holder,
+  .doctors__holder {
+    flex-wrap: wrap !important;
+  }
+  .custom__card {
+    width: 66% !important;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .feedback .home__slide {
+    display: block !important;
+  }
+  .feedback .carousel-control-next {
+    display: none !important;
+  }
+  .feedback .carousel-control-prev {
+    display: none !important;
+  }
+  .feedback .slide__content {
+    text-align: center;
+  }
+  .feedback .slide__content p {
+    margin: auto;
+  }
+  .feedback .slide__content .star__holder {
+    justify-content: center;
+  }
+  .feedback .img__holder img {
+    width: 200px !important;
+  }
+  .health__header img {
+    width: 64% !important;
+  }
+  .health__header .slide__content h1 {
+    font-size: 24px;
+  }
+  .health__header .slide__content p {
+    width: 100%;
+    font-size: 16px;
+  }
+  .tip__holder {
+    height: 120px !important;
+  }
+  .tip__holder h1 {
+    font-size: 15px !important;
+    margin: auto;
+  }
+  footer .container > ul {
+    display: block !important;
+  }
+  footer .container > ul ul {
+  }
+  .login__btn,
+  .signup__btn {
+    font-size: 12px !important;
+  }
+  .doctor-details-img {
+    width: 40% !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1112px) {
+  .nav__Links {
+    display: none !important;
+  }
+  .burger__list {
+    display: block !important;
+  }
+  .nav__link {
+    padding: 5px !important;
+  }
+  .burger__list:hover + .nav__Links {
+    display: block !important;
+    position: absolute;
+    border-radius: 3px;
+    border: 2px solid var(--main-color);
+    bottom: -180px;
+    z-index: 3;
+    background-color: rgba(255, 255, 255, 0.787);
+    width: 100%;
+    padding: 10px 0 !important;
+  }
+  .about__imgHolder {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .about__imgHolder img {
+    width: 80%;
+  }
+  .section__header {
+    text-align: center;
+  }
+  .doctors__holder {
+    flex-wrap: wrap !important;
+  }
+  .doctors__holder .custom__card {
+    width: 49%;
+    margin-bottom: 20px;
+  }
+  .feedback .home__slide {
+    display: block !important;
+  }
+  .feedback .slide__content {
+    text-align: center;
+  }
+  .feedback .slide__content p {
+    margin: auto;
+  }
+  .feedback .slide__content .star__holder {
+    justify-content: center;
+  }
+  .health__header img {
+    width: 64% !important;
+  }
+  .tip__holder h1 {
+    font-size: 20px !important;
+    margin: auto;
+  }
+}

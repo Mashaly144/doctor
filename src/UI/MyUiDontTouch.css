@@ -1,0 +1,23 @@
+/* DONT TOUCH THIS PLS */
+/* DONT TOUCH THIS PLS */
+/* DONT TOUCH THIS PLS */
+/* DONT TOUCH THIS PLS */
+/* DONT TOUCH THIS PLS */
+/* DONT TOUCH THIS PLS */
+/* DONT TOUCH THIS PLS */
+/* DONT TOUCH THIS PLS */
+/* DONT TOUCH THIS PLS */
+.section__header h1 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: var(--main-color) !important;
+}
+.section__header p {
+  font-weight: 400;
+  font-size: 20px !important;
+  line-height: 40px;
+  letter-spacing: 0.015em;
+  color: #7d7987;
+}

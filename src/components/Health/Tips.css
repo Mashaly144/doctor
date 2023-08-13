@@ -1,0 +1,14 @@
+.tips {
+  margin-top: 6% !important;
+}
+.tips__header {
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+}
+.tips__holder {
+  width: 85%;
+  margin: auto !important;
+}
